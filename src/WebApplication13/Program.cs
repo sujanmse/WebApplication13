@@ -12,6 +12,7 @@ namespace WebApplication13
         //test
         public static void Main(string[] args)
         {
+            int i = 5;
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
