@@ -16,6 +16,7 @@ namespace WebApplication13.Controllers
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
+			int a=5;
 
             return View();
         }
