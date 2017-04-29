@@ -18,7 +18,7 @@ namespace WebApplication13.Controllers
             ViewData["Message"] = "Your application description page.";
 			int a=5;
 			int a1=5;
-            int b=a+a1;
+            int b=a+a1+5;
             return View();
         }
 
